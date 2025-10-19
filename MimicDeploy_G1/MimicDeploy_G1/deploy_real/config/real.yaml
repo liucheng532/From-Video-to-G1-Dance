@@ -1,0 +1,9 @@
+net: enp8s0
+num_joints: 29
+
+lowcmd_topic: "rt/lowcmd"
+lowstate_topic: "rt/lowstate"
+
+control_dt: 0.02
+
+error_over_time: 5

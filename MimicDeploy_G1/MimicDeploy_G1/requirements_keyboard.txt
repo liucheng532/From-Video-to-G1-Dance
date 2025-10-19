@@ -1,0 +1,12 @@
+# 实时键盘控制依赖包
+pynput>=1.7.6
+
+# 说明：
+# pynput - 跨平台键盘/鼠标监听库
+#   - 支持 Linux、Windows、macOS
+#   - 实时按键监听，无需窗口焦点
+#   - 按下和释放事件分离
+
+# 安装方法：
+# pip install -r requirements_keyboard.txt
+

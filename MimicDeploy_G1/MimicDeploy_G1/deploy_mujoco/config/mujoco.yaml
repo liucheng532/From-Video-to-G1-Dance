@@ -1,0 +1,10 @@
+xml_path: "g1_description/scene.xml"
+# xml_path: "g1_description/g1_29dof_LieDown.xml"
+simulation_dt: 0.003
+control_decimation: 7
+tau_limit: [88, 88, 88, 139, 50, 50,
+            88, 88, 88, 139, 50, 50,
+            88, 50, 50,
+            25, 25, 25, 25, 5, 5, 5,
+            25, 25, 25, 25, 5, 5, 5
+           ]

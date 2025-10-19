@@ -1,0 +1,105 @@
+# 数据文件 - 视频和动作数据
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.pkl
+*.npz
+*.csv
+*.pt
+*.zip
+
+# GVHMR 输出数据
+GVHMR/outputs/
+GVHMR/danceVedio/
+GVHMR/inputs/checkpoints/
+
+# GMR 输出数据
+GMR/output/
+GMR/videos/
+
+# Mimic_Lab 训练数据
+Mimic_Lab/outputs/
+Mimic_Lab/wandb/
+Mimic_Lab/logs/
+Mimic_Lab/artifacts/
+Mimic_Lab/training.log
+
+# MimicDeploy_G1 输出
+MimicDeploy_G1/outputs/
+MimicDeploy_G1/MimicDeploy_G1/outputs/
+
+# IsaacLab 输出和日志
+IsaacLab/outputs/
+IsaacLab/logs/
+
+# Python 缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 虚拟环境
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE 文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# 临时文件
+*.tmp
+*.temp
+*.log
+
+# 模型检查点
+*.ckpt
+*.pth
+*.h5
+*.onnx
+
+# 其他大文件
+*.bin
+*.dat
+
+# Git 相关
+.gitmodules
